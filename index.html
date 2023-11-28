@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MovieCon</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="index.js"></script>
+</head>
+<body>
+    <header>
+        <h1>MovieCon</h1>
+        <h3>El mejor sitio para encontrar tus películas y series favoritas</h3>
+        <div id="busqueda">
+            <select name="tipoBusqueda" id="tipoBusqueda">
+                <option value="movie">Película</option>
+                <option value="series">Serie</option>
+            </select>
+            <input type="text" id="nombrePelicula" placeholder="Buscar...">
+            <button id="btnBuscar">Buscar</button>
+            <div id="botones">
+                <button id="btnValoradas" class="btn">Mejor valoradas</button>
+                <button id="btnVotadas" class="btn">Más votadas</button>
+                <button id="btnRecaudacion" class="btn">Más recaudación</buttond>
+            </div>
+        </div>
+
+
+    </header>
+    <div id="contenedor">
+        <div id="peliculas">
+            <h2 id="tipoH2">Películas</h2>
+            <div id="contenidoPeliculas">
+            </div>
+        </div>
+    </div>
+    <div class="contenedorOculto">
+        <div id="infoPelicula">
+            <img src="" id="imagenPelicula" alt="">
+            <div class="detallesPelicula">
+                <p id="estreno"></p>
+                <p id="genero"></p>
+                <p id="puntuacion"></p>
+                <p id="director"></p>
+                <p id="actores"></p>
+                <hr>
+                <p id="sinopsis"></p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
