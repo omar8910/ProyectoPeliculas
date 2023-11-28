@@ -76,7 +76,7 @@ var tipoSeleccionado;
 var contenidoPeliculas;
 var paginaActual;
 var pelicula;
-const apiURL = "http://www.omdbapi.com/?apikey=95286529"; // URL de la API con mi clave
+const apiURL = "https://www.omdbapi.com/?apikey=95286529"; // URL de la API con mi clave
 
 
 // Función para resetear la búsqueda cuando cambia el tipo de búsqueda
